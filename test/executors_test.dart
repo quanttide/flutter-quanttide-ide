@@ -1,6 +1,8 @@
-import 'package:cloud_ide_widgets/src/executors.dart';
-import 'package:cloud_ide_widgets/environment_config.dart';
 import 'package:flutter_test/flutter_test.dart';
+
+import 'package:cloud_ide_widgets/src/executors.dart';
+
+import 'environment_config.dart';
 
 
 void main() {
@@ -9,7 +11,7 @@ void main() {
       host: EnvironmentConfig.testExecutorHost,
       path: EnvironmentConfig.testExecutorPath,
     );
-    String result = await executor.execute(code: 'print("Hello, world!")');
+    String result = await executor.execute('print("Hello, world!")');
     // 注意格式为r'xxx'
     assert(result == r'"Hello, world!\n"');
   });

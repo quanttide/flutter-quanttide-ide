@@ -2,4 +2,4 @@
 
 ## 0.1.0
 
-实现Python终端Item组件。
+实现云端代码执行器`CloudExecutor`。

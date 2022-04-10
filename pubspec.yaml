@@ -13,6 +13,7 @@ dependencies:
   # Markdown渲染
   markdown: ^4.0.1
   flutter_markdown: ^0.6.9
+  flutter_highlight: ^0.7.0
   # HTTP请求
   http: ^0.13.4
   # 环境变量

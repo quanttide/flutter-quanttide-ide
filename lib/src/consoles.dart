@@ -1,4 +1,4 @@
-/// Python终端组件
+/// 终端组件（Console）
 ///
 /// author: 张果
 /// created at: 2021-03-01

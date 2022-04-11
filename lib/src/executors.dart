@@ -21,7 +21,9 @@ import 'package:http/http.dart' as http;
 ///
 /// 定义Provider监听input和output，和Input、Output、ControlPanel组件一起工作。
 ///
-/// TODO：声明式配置的形态还不能确定，暂时先不定义，留待后续进行break change或者no break change。
+/// TODO：
+///   - 声明式配置的形态还不能确定，暂时先不定义，留待后续进行break change或者no break change。
+///   - CORS策略需要处理，暂时采取在本地调试时使用[flutter_cors](https://pub.dev/packages/flutter_cors)关闭的策略。
 class CloudExecutor {
   /// 云端代码运行地址
   /// api.quanttide.com，可随着环境切换

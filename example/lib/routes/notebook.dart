@@ -25,7 +25,7 @@ class NotebookRoute extends StatelessWidget {
         data: markdownCodeText,
         selectable: true,
         builders: {
-          'code': MarkdownCodeRunningBuilder(
+          'code': MarkdownCodeExecutingBuilder(
               CloudExecutor(
                 host: EnvironmentConfig.executorHost,
                 path: EnvironmentConfig.executorPath,

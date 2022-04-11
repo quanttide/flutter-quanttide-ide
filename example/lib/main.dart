@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/notebook': (BuildContext context) => const NotebookRoute()
+        '/': (BuildContext context) => const NotebookRoute()
       },
     );
   }

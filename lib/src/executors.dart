@@ -10,9 +10,7 @@
 ///   - 为CloudExecutor定义Type（https://api.dart.dev/stable/2.16.1/dart-core/Type-class.html），方便自定义代码执行器在其他组件使用。
 ///   - 拆分CloudExecutor为Abstract和它的实现两个类，以方便开发者使用库时二次定义CloudExecutor的execute等方法。
 
-
 import 'package:http/http.dart' as http;
-
 
 /// 云端代码执行器
 ///
@@ -22,12 +20,14 @@ import 'package:http/http.dart' as http;
 /// 定义Provider监听input和output，和Input、Output、ControlPanel组件一起工作。
 ///
 /// TODO：
+///   - 决定命名，包括CloudExecutor还是CloudCodeExecutor还是RemoteCodeExecutor。
 ///   - 声明式配置的形态还不能确定，暂时先不定义，留待后续进行break change或者no break change。
 ///   - CORS策略需要处理，暂时采取在本地调试时使用[flutter_cors](https://pub.dev/packages/flutter_cors)关闭的策略。
 class CloudExecutor {
   /// 云端代码运行地址
   /// api.quanttide.com，可随着环境切换
   String host;
+
   /// execute/，通常在一个APP内固定
   String path;
 

@@ -2,7 +2,8 @@
 ///
 /// Inspired by Jupyter and RMarkdown.
 ///
-/// - Markdown代码渲染组件，用以辅助`flutter_markdown`库。
+/// TODO：
+///   - 抽象Notebook类组件的共同接口。
 
 import "package:flutter/material.dart";
 

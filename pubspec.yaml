@@ -1,6 +1,6 @@
 name: cloud_ide_widgets
 description: 云IDE组件库
-version: 0.1.0-alpha.2
+version: 0.1.0-rc.1
 repository: https://github.com/quanttide/cloud-ide-widgets-flutter
 
 environment:

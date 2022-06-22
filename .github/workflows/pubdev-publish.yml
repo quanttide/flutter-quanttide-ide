@@ -1,5 +1,8 @@
-name: publish to pub.dev
-on: release
+name: pubdev-publish
+on:
+  # https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows#release
+  release:
+    types: [published]
 jobs:
   publishing:
     runs-on: ubuntu-latest

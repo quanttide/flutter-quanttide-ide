@@ -15,4 +15,10 @@ flutter packages pub publish --server=https://pub.dartlang.org
 
 在浏览器复制打开验证身份的链接，用QuantTide的Google账号验证身份。
 
-在`~/.pub-cache/credentials.json`获取AccessToken和RefreshToken，即可在CI中使用。
+获取AccessToken和RefreshToken，即可在CI中使用。
+> Since Dart 2.15, the third-party pub's token is stored at /Users/username/Library/Application Support/dart/pub-tokens.json (macOS)
+实际位置是"pub-credentials.json"
+
+## 参考资料
+
+- https://pub.dev/packages/unpub_auth

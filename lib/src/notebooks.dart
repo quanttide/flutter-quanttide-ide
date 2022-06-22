@@ -16,6 +16,7 @@ import "executors.dart";
 /// Markdown代码运行渲染器抽象类
 ///
 /// TODO: 增加编辑输入功能。
+/// TODO：考虑重命名为MarkdownExecutiveCodeBuilder
 abstract class MarkdownCodeExecutingBuilder extends MarkdownElementBuilder {
   /// 代码运行器实例
   CloudExecutor executor;

@@ -2,10 +2,12 @@
 
 
 // 云端代码执行器
-export 'src/executors.dart';
+export 'src/executor.dart';
 // 终端组件
-export 'src/consoles.dart';
+export 'src/console.dart';
 // 笔记本组件
-export 'src/notebooks.dart';
+export 'src/notebook.dart';
 // 编辑器组件
-export 'src/editors.dart';
+export 'src/editor.dart';
+// Markdown组件
+export 'src/markdown.dart';

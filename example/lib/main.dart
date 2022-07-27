@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'routes/notebook.dart';
+import 'routes/markdown.dart';
 
 
 void main() {
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (BuildContext context) => const NotebookRoute()
+        '/': (BuildContext context) => const MarkdownRoute()
       },
     );
   }

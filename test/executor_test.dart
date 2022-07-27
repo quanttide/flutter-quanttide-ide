@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:cloud_ide_widgets/src/executors.dart';
+import 'package:cloud_ide_widgets/src/executor.dart';
 
 import 'environment_config.dart';
 

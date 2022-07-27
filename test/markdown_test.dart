@@ -2,8 +2,8 @@ import 'package:flutter_test/flutter_test.dart';
 import "package:flutter/material.dart";
 import "package:markdown/markdown.dart" as md;
 
-import 'package:cloud_ide_widgets/src/executors.dart';
-import 'package:cloud_ide_widgets/src/notebooks.dart';
+import 'package:cloud_ide_widgets/src/executor.dart';
+import 'package:cloud_ide_widgets/src/markdown.dart';
 
 import 'environment_config.dart';
 
@@ -25,11 +25,11 @@ void main() {
 
     /// 单元测试
     test("实例化", (){
-      MarkdownCodeExecutingBuilder builder = MarkdownCodeExecutingBuilder(executor);
+       ExecutiveCodeBuilder builder = ExecutiveCodeBuilder(executor);
     });
 
     test('visitElementAfter方法', () {
-      MarkdownCodeExecutingBuilder builder = MarkdownCodeExecutingBuilder(executor);
+      ExecutiveCodeBuilder builder = ExecutiveCodeBuilder(executor);
       Widget widget = builder.visitElementAfter(element, null)!;
       // assert(widget.);
     });

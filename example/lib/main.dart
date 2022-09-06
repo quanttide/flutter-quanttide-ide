@@ -2,8 +2,6 @@
 
 import 'package:flutter/material.dart';
 
-import 'routes/markdown.dart';
-
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +29,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (BuildContext context) => const MarkdownRoute()
+        '/': (BuildContext context) => const Text('TODO')
       },
     );
   }

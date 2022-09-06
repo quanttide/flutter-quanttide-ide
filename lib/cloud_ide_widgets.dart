@@ -9,5 +9,3 @@ export 'src/console.dart';
 export 'src/notebook.dart';
 // 编辑器组件
 export 'src/editor.dart';
-// Markdown组件
-export 'src/markdown.dart';

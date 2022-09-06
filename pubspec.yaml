@@ -1,5 +1,5 @@
 name: cloud_ide_widgets
-version: 0.1.1-alpha.1
+version: 0.1.1
 description: 云IDE组件库
 homepage: https://github.com/quanttide/cloud-ide-widgets-flutter
 repository: https://github.com/quanttide/cloud-ide-widgets-flutter
@@ -20,12 +20,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Markdown渲染
-  markdown: ^4.0.1
-  flutter_markdown: ^0.6.9
-  flutter_highlight: ^0.7.0
   # HTTP请求
-  http: ^0.13.4
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:

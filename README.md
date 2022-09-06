@@ -1,3 +1,18 @@
-# 云IDE组件库
+# `cloud_ide_widgets`
 
-实现云IDE的Flutter组件库。包括代码编辑器（editor）、终端（console）等。
+Cloud IDE Widgets for Flutter
+
+## Usage
+
+```dart
+import 'pacakge:cloud_ide_widgets/cloud_ide_widgets.dart';
+
+executor = CloudExecutor(
+    host: 'your.host.com',
+    path: '/path',
+);
+
+String input = 'print("Hello, world!")';
+String output = await executor.execute(input);
+print(output);
+```

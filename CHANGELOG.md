@@ -2,9 +2,9 @@
 
 ## [0.1.1] - 2022-09-06
 
-移除实际未被使用的Markdown相关实现和相关依赖。
+Bugfix. Removed Markdown specification and its requirements.
 
 ## [0.1.0] - 2022-06-22
 
-初始版本。增加云端代码执行器`CloudExecutor`。
+Initial version. Add cloud code executor `CloudExecutor` class.
 
